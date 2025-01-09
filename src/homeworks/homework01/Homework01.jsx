@@ -4,6 +4,7 @@ import avatar from '../../images/avatar.jpg';
 
 const Homework01 = () => {
   return (
+    <>
     <div className="profile-card">
       <img
         src={avatar}
@@ -13,7 +14,8 @@ const Homework01 = () => {
       <h2 className="profile-name">Aleksandr Gerstenberger</h2>
           <p className="profile-hobby">Мои хобби: программирование,
               ремонт компютерной техники, пчеловодство, путешествия.</p>
-    </div>
+      </div>
+      </>
   );
 };
 
