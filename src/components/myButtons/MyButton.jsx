@@ -1,3 +1,4 @@
-export default function MyButton() {
-    return <button>Click me!</button>
+export default function MyButton({type, children}) {
+   
+    return <button type={type}>{children}</button>
 }
