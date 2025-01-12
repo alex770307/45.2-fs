@@ -6,7 +6,6 @@ function MyInput({ name, type, placeholder, label }) {
                 name={name}
                 type={type}
                 placeholder={placeholder}
-                id={name} // Используйте id для связывания метки с элементом ввода
             />
         </div>
     )
