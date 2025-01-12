@@ -10,19 +10,19 @@ function LoginForm() {
                 name="username"
                 type="text"
                 placeholder="Введите имя пользователя"
-                label="Имя пользователя"
+                label="Имя пользователя  "
             />
             <MyInput
                 name="email"
                 type="email"
                 placeholder="Введите вашу электронную почту"
-                label="Электронная почта"
+                label="Электронная почта  "
             />
             <MyInput
                 name="password"
                 type="password"
                 placeholder="Введите пароль"
-                label="Пароль"
+                label="Пароль  "
             />
             <MyButton type="submit">Войти</MyButton>
         </div>
